@@ -1,55 +1,55 @@
 {
-  "name": "Henry Hub gas prices",
-  "title": "Henry Hub gas prices Report",
-  "version": "0.1",
-  "author": "Shubham Mahajan",
-  "licenses": [
-    {
-      "name": "GNU",
-      "path": "https://opensource.org/licenses/GPL-3.0",
-      "title": "GNU General Public License"
-    }
-  ],
-  "resources": [
-    {
-      "name": "henry_hub_gas_daily_price",
-      "path": "data/henry_hub_gas_daily_price.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "Date",
-            "description": "Date when price is defined",
-            "type": "string"
-          },
-          {
-            "name": "Price",
-            "description": "Price",
-            "type": "string"
-          }
-        ]
-      }
-    },
-    {
-      "name": "henry_hub_gas_monthly_price",
-      "path": "data/henry_hub_gas_monthly_price.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "Date",
-            "description": "Date when price is defined",
-            "type": "string"
-          },
-          {
-            "name": "Price",
-            "description": "Price",
-            "type": "string"
-          }
-        ]
-      }
-    }
-  ]
+    "name": "Henry Hub gas prices",
+    "title": "Henry Hub gas prices Report",
+    "version": "0.1",
+    "author": "Shubham Mahajan",
+    "licenses": [
+        {
+            "name": "GNU",
+            "path": "https://opensource.org/licenses/GPL-3.0",
+            "title": "GNU General Public License"
+        }
+    ],
+    "resources": [
+        {
+            "name": "henry_hub_gas_daily_price",
+            "path": "data/henry_hub_gas_daily_price.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Date",
+                        "description": "Date when price is defined",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Price",
+                        "description": "Price",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "henry_hub_gas_monthly_price",
+            "path": "data/henry_hub_gas_monthly_price.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Date",
+                        "description": "Date when price is defined",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Price",
+                        "description": "Price",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
 }
